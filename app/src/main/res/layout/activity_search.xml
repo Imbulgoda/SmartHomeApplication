@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282424"
+    tools:context=".search">
+
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="99dp"
+        android:layout_height="35dp"
+        android:text="Search"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="155dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:cardCornerRadius="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856" >
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="136dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="130dp"
+            android:layout_marginTop="22dp"
+            android:text="    LIFX LED Light"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="145dp"
+            android:layout_height="114dp"
+            app:srcCompat="@drawable/bulb" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="155dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:cardCornerRadius="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.856">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="136dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="130dp"
+            android:layout_marginTop="22dp"
+            android:text="           Fridge"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/frige" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="155dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:cardCornerRadius="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:backgroundTint="#282424"
+            app:srcCompat="@drawable/download" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="136dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="130dp"
+            android:layout_marginTop="22dp"
+            android:text="    Bork V530"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView7"
+        android:layout_width="155dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:cardCornerRadius="20dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293">
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="159dp"
+            android:layout_height="113dp"
+            app:srcCompat="@drawable/image" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="136dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="130dp"
+            android:layout_marginTop="22dp"
+            android:text="    LIFX LED Light"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FFB267"
+        android:text="Add Device"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+</androidx.constraintlayout.widget.ConstraintLayout>

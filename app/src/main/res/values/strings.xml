@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name ="con">Creat accout</string>
+    <string name ="n">Name</string>
+    <string name ="E">Email</string>
+    <string name ="pas">Password</string>
+    <string name ="pho">Phone</string>
+    <string name ="Elect">Electricity code</string>
+    <string name ="Eaccount">Electricity Account Number</string>
+    <string name ="conpass">Confirm Password</string>
+    <string name ="card">Card Holder Name</string>
+    <string name ="nic">NIC</string>
+    <string name ="ex">Expire Date</string>
+    <string name ="c">CVV</string>
+    <string name ="pay">payment</string>
+    <string name ="not">Notification</string>
+    <string name ="ser">search</string>
+    <string name ="pro">profile</string>
+
+</resources>

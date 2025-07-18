@@ -1,0 +1,319 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642">
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="122dp"
+            android:layout_height="66dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="45dp"
+            android:layout_marginTop="20dp"
+            android:text="Air Conditioner"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:text="Switch"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="78dp"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:thumbTint="#FFB267" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            app:srcCompat="@drawable/ac1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#393535"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642">
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="122dp"
+            android:layout_height="66dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="45dp"
+            android:layout_marginTop="20dp"
+            android:text="  Smart Tv"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="105dp"
+            android:layout_height="45dp"
+            android:text="Switch"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="78dp"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:thumbTint="#FFB267" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="45dp"
+            android:layout_height="34dp"
+            app:srcCompat="@drawable/tv1" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="122dp"
+            android:layout_height="66dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="45dp"
+            android:layout_marginTop="20dp"
+            android:text="Light Bulb"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="113dp"
+            android:layout_height="39dp"
+            android:text="Switch"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="78dp"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:thumbTint="#FFB267" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="61dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/bulbn" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/white"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:text="Power usage today"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="287dp"
+            android:layout_height="45dp"
+            android:layout_margin="30dp"
+            android:text="              30.44 kWh"
+            android:textColor="#EA1414"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/power" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="137dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#393535"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="122dp"
+            android:layout_height="66dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="45dp"
+            android:layout_marginTop="20dp"
+            android:text="      Fan"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:text="Switch"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="78dp"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:thumbTint="#FFB267"/>
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="44dp"
+            android:layout_height="53dp"
+            app:srcCompat="@drawable/icons8fan24" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="497dp"
+        android:layout_height="754dp"
+        android:background="#945050"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36"
+        app:srcCompat="@drawable/coner" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="203dp"
+        android:layout_height="58dp"
+        android:text="control switch"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/homenew1" />
+
+    <ImageButton
+        android:id="@+id/imageButton90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/notification2" />
+
+    <ImageButton
+        android:id="@+id/imageButton91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/search2" />
+
+    <ImageButton
+        android:id="@+id/imageButton92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923"
+        app:srcCompat="@drawable/account2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
